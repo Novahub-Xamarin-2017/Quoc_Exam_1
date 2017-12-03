@@ -24,6 +24,7 @@ namespace StudentManager.Views
                 Console.WriteLine("3 |\tHien thi danh sach lop hoc");
                 Console.WriteLine("4 |\tHien thi danh sach sinh vien theo lop");
                 Console.WriteLine("5 |\tExit");
+                Console.Write("\nChon thao tac : ");
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
